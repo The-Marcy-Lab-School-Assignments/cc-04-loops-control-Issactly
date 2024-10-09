@@ -41,4 +41,23 @@ const betweenFiveAndTwenty = (num) => {
 
 //5
 const sumOfThreeAndFive = (num) => {
+  //followed along w class after this point
+  let sum = 0
   
+  for (let i = 1; i < 1000; i++) {
+    if (i %  3 === 0 || i % 5 === 0) {
+      sum += i;
+      console.log(sum);
+    }
+  }
+};
+sumOfThreeAdFive
+
+//6
+const isAllLowerCase = (str) => {
+  if (str.toLowerCase() === str) {
+    return true;
+  } else {
+    return false;
+  }
+};
